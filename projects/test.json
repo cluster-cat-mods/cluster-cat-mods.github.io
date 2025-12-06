@@ -1,0 +1,614 @@
+[
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\01 From Zero (Intro).flac",
+        "title": "From Zero (Intro)",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\02 The Emptiness Machine.flac",
+        "title": "The Emptiness Machine",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\03 Cut The Bridge.flac",
+        "title": "Cut The Bridge",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\04 Heavy Is The Crown.flac",
+        "title": "Heavy Is The Crown",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\05 Over Each Other.flac",
+        "title": "Over Each Other",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\06 Casualty.flac",
+        "title": "Casualty",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\07 Overflow.flac",
+        "title": "Overflow",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\08 Two Faced.flac",
+        "title": "Two Faced",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\09 Stained.flac",
+        "title": "Stained",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\10 IGYEIH.flac",
+        "title": "IGYEIH",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\From Zero\\11 Good Things Go.flac",
+        "title": "Good Things Go",
+        "album": "From Zero",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\01 Lost In The Echo.flac",
+        "title": "Lost In The Echo",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\02 In My Remains.flac",
+        "title": "In My Remains",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\03 Burn It Down.flac",
+        "title": "Burn It Down",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\04 Lies Greed Misery.flac",
+        "title": "Lies Greed Misery",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\05 I'll Be Gone.flac",
+        "title": "I'll Be Gone",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\06 Castle Of Glass.flac",
+        "title": "Castle Of Glass",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\07 Victimized.flac",
+        "title": "Victimized",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\08 Roads Untraveled.flac",
+        "title": "Roads Untraveled",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\09 Skin To Bone.flac",
+        "title": "Skin To Bone",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\10 Until It Breaks.flac",
+        "title": "Until It Breaks",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\11 Tinfoil.flac",
+        "title": "Tinfoil",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Living Things\\12 Powerless.flac",
+        "title": "Powerless",
+        "album": "Living Things",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\01 Wake.flac",
+        "title": "Wake",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\02 Given Up.flac",
+        "title": "Given Up",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\03 Leave Out All The Rest.flac",
+        "title": "Leave Out All The Rest",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\04 Bleed It Out.flac",
+        "title": "Bleed It Out",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\05 Shadow Of The Day.flac",
+        "title": "Shadow Of The Day",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\06 What I've Done.flac",
+        "title": "What I've Done",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\07 Hands Held High.flac",
+        "title": "Hands Held High",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\08 No More Sorrow.flac",
+        "title": "No More Sorrow",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\09 Valentine's Day.flac",
+        "title": "Valentine's Day",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\10 In Between.flac",
+        "title": "In Between",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\11 In Pieces.flac",
+        "title": "In Pieces",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\Minutes To Midnight\\12 The Little Things Give You Away.flac",
+        "title": "The Little Things Give You Away",
+        "album": "Minutes To Midnight",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\01 Nobody Can Save Me.flac",
+        "title": "Nobody Can Save Me",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\02 Good Goodbye.flac",
+        "title": "Good Goodbye",
+        "album": "One More Light",
+        "artist": "Linkin Park Feat. Pusha T & Stormzy"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\03 Talking To Myself.flac",
+        "title": "Talking To Myself",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\04 Battle Symphony.flac",
+        "title": "Battle Symphony",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\05 Invisible.flac",
+        "title": "Invisible",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\06 Heavy.flac",
+        "title": "Heavy",
+        "album": "One More Light",
+        "artist": "Linkin Park Feat. Kiiara"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\07 Sorry For Now.flac",
+        "title": "Sorry For Now",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\08 Halfway Right.flac",
+        "title": "Halfway Right",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\09 One More Light.flac",
+        "title": "One More Light",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Linkin Park\\One More Light\\10 Sharp Edges.flac",
+        "title": "Sharp Edges",
+        "album": "One More Light",
+        "artist": "Linkin Park"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\01 The Dam At Otter Creek.flac",
+        "title": "The Dam At Otter Creek",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\02 Selling The Drama.flac",
+        "title": "Selling The Drama",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\03 I Alone.flac",
+        "title": "I Alone",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\04 Iris.flac",
+        "title": "Iris",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\05 Lightning Crashes.flac",
+        "title": "Lightning Crashes",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\06 Top.flac",
+        "title": "Top",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\07 All Over You.flac",
+        "title": "All Over You",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\08 Shit Towne.flac",
+        "title": "Shit Towne",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\09 T.B.D..flac",
+        "title": "T.B.D.",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\10 Stage.flac",
+        "title": "Stage",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\11 Waitress.flac",
+        "title": "Waitress",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\12 Pillar Of Davidson.flac",
+        "title": "Pillar Of Davidson",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\13 White, Discussion.flac",
+        "title": "White, Discussion",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\Throwing Copper\\14 Untitled.flac",
+        "title": "Horse",
+        "album": "Throwing Copper",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\01 Intro.flac",
+        "title": "Intro",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\02 Simple Creed.flac",
+        "title": "Simple Creed",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\03 Deep Enough.flac",
+        "title": "Deep Enough",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\04 Like A Soldier.flac",
+        "title": "Like A Soldier",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\05 People Like You.flac",
+        "title": "People Like You",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\06 Transmit Your Love.flac",
+        "title": "Transmit Your Love",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\07 Forever May Not Be Long Enough.flac",
+        "title": "Forever May Not Be Long Enough",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\08 Call Me A Fool.flac",
+        "title": "Call Me A Fool",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\09 Flow.flac",
+        "title": "Flow",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\10 The Ride.flac",
+        "title": "The Ride",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\11 Nobody Knows.flac",
+        "title": "Nobody Knows",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\12 OK-.flac",
+        "title": "OK?",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\13 Overcome.flac",
+        "title": "Overcome",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Live\\V\\14 Hero Of Love.flac",
+        "title": "Hero Of Love",
+        "album": "V",
+        "artist": "Live"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\01 Dead Inside.flac",
+        "title": "Dead Inside",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\02 [Drill Sergeant].flac",
+        "title": "[Drill Sergeant]",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\03 Psycho.flac",
+        "title": "Psycho",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\04 Mercy.flac",
+        "title": "Mercy",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\05 Reapers.flac",
+        "title": "Reapers",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\06 The Handler.flac",
+        "title": "The Handler",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\07 [JFK].flac",
+        "title": "[JFK]",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\08 Defector.flac",
+        "title": "Defector",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\09 Revolt.flac",
+        "title": "Revolt",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\10 Aftermath.flac",
+        "title": "Aftermath",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\11 The Globalist.flac",
+        "title": "The Globalist",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Muse\\Drones\\12 Drones.flac",
+        "title": "Drones",
+        "album": "Drones",
+        "artist": "Muse"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\01 Bohemian Rhapsody.flac",
+        "title": "Bohemian Rhapsody",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\02 Another One Bites The Dust.flac",
+        "title": "Another One Bites The Dust",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\03 Killer Queen.flac",
+        "title": "Killer Queen",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\04 Fat Bottomed Girls.flac",
+        "title": "Fat Bottomed Girls",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\05 Bicycle Race.flac",
+        "title": "Bicycle Race",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\06 You're My Best Friend.flac",
+        "title": "You're My Best Friend",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\07 Don't Stop Me Now.flac",
+        "title": "Don't Stop Me Now",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\08 Save Me.flac",
+        "title": "Save Me",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\09 Crazy Little Thing Called Love.flac",
+        "title": "Crazy Little Thing Called Love",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\10 Somebody To Love.flac",
+        "title": "Somebody To Love",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\11 Now I'm Here.flac",
+        "title": "Now I'm Here",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\12 Good Old-Fashioned Lover Boy.flac",
+        "title": "Good Old-Fashioned Lover Boy",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\13 Play The Game.flac",
+        "title": "Play The Game",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\14 Flash.flac",
+        "title": "Flash",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\15 Seven Seas Of Rhye.flac",
+        "title": "Seven Seas Of Rhye",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\16 We Will Rock You.flac",
+        "title": "We Will Rock You",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    },
+    {
+        "filepath": "HTML\\media\\music\\Queen\\Greatest Hits\\17 We Are The Champions.flac",
+        "title": "We Are The Champions",
+        "album": "Greatest Hits",
+        "artist": "Queen"
+    }
+]

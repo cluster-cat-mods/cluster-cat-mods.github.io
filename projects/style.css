@@ -1,0 +1,161 @@
+:root {
+    --darkest: #593C40ff;
+    --dark: #7B5353ff;
+    --mid: #966761ff;
+    --lightest: #F8EFE8ff;
+    --light: #EECEB1ff;
+    --other: #886E74ff;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: var(--lightest);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--light);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, var(--light), var(--lightest));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--light), var(--lightest)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Container styling to divide left and right sides */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+/* Left side styling for the song list */
+.left-side {
+    width: 40%;
+    overflow-y: auto;
+    /* From https://css.glass */
+    background: var(--other);
+    opacity: 0.8;
+    border-radius: 1vh;
+    box-shadow: 0 4px 30px var(--other);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 2px solid var(--dark);
+    padding: 1%;
+}
+
+/* Right side styling for the audio player and song details */
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    /* From https://css.glass */
+    background: var(--other);
+    opacity: 0.8;
+    border-radius: 1vh;
+    box-shadow: 0 4px 30px var(--other);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 2px solid var(--dark);
+    padding: 1%;
+    margin: 1%;
+}
+
+.audio-player-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.audio-player-top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.album-cover-container {
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 1vh;
+}
+
+.album-cover-container * {
+    width: 100%;
+    border-radius: 1vh;
+}
+
+.songs-info-container {
+    flex-grow: 1;
+}
+
+.song-info h1,
+.song-info h2 {
+    margin: 5px 0;
+}
+
+.audio-player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio {
+    width: 100%;
+}
+
+/* Style the collapsible container */
+.collapsible{
+    background-color: #777;
+    color: var(--lightest);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: block; /* Ensures it takes full width */
+}
+
+/* Collapsible button active and hover */
+
+
+/* Style the collapsible content */
+.content {
+    display: none;
+    overflow: hidden;
+    padding-left: 25px; /* Indent content */
+}
+
+#songList *{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#songList button {
+    border: none;
+    border-bottom: 1px solid var(--darkest) ;
+    color:var(--lightest);
+    width: 100%;
+}
+
+#songList button:hover {
+    background-color:var(--dark);
+    opacity: 0.8;
+}
+
+#nextButton, #prevButton {
+    border: none;
+    background-color: var(--other);
+    color:var(--lightest);
+    width: 9%;
+    aspect-ratio: 1 / 1;
+    font-size: 150%;
+}
+
+#nextButton:hover, #prevButton:hover {
+    background-color:var(--dark);
+    opacity: 0.8;
+}

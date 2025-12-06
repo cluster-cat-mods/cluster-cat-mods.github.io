@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+  <title>Music Player</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+      <div id="songList"></div>
+    </div>
+
+    <div class="right-side">
+      <div class="audio-player-container">
+        <div class="audio-player-top">
+          <div class="album-cover-container">
+            <img src="default-cover.png" alt="Album Cover">
+          </div>
+          <div class="songs-info-container">
+            <div class="song-info">
+              <h1 id="currentSongName"></h1>
+            </div>
+            <div class="song-info">
+              <h2 id="currentSongArtist"></h2>
+            </div>
+            <div class="song-info">
+              <h2 id="currentSongAlbum"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="audio-player-controls">
+          <button id="prevButton"><=</button>
+          <audio id="audioPlayer" controls>
+            Your browser does not support the audio element.
+          </audio>
+          <button id="nextButton">=></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const audioPlayer = document.getElementById('audioPlayer');
+    const currentSongName = document.getElementById('currentSongName');
+    const currentSongArtist = document.getElementById('currentSongArtist');
+    const currentSongAlbum = document.getElementById('currentSongAlbum');
+    let currentAlbumSongs = [];  // To hold the songs in the current album
+    let currentSongIndex = -1;    // To track the current song index
+
+    // Function to close all artist or album sections
+    function closeAll(elements) {
+      elements.forEach(element => {
+        element.style.display = "none";
+      });
+    }
+
+    // Function to toggle artist section
+    function toggleArtist(event) {
+      const content = event.target.nextElementSibling;
+      const allArtistContents = document.querySelectorAll('.left-side .content');
+
+      // If the clicked artist is open, close it
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        // Close all other artists, and open the clicked one
+        closeAll(allArtistContents);
+        content.style.display = "block";
+      }
+    }
+
+    // Function to toggle album section
+    function toggleAlbum(event) {
+      const content = event.target.nextElementSibling;
+      const allAlbumContents = event.target.closest('.content').querySelectorAll('.content');
+
+      // If the clicked album is open, close it
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        // Close all other albums in the same artist, and open the clicked one
+        closeAll(allAlbumContents);
+        content.style.display = "block";
+      }
+    }
+
+    // Function to play the song and update the current song index
+    function playSong(song, index, songs) {
+      const currentSongPath = song.filepath;
+      audioPlayer.src = currentSongPath;
+      audioPlayer.play();
+      currentSongName.innerHTML = song.title;
+      currentSongArtist.innerHTML = song.artist;
+      currentSongAlbum.innerHTML = song.album;
+
+      currentAlbumSongs = songs; // Store the current album's songs
+      currentSongIndex = index;  // Update the current song index
+    }
+
+    // Function to play the next song
+    function playNextSong() {
+      if (currentSongIndex < currentAlbumSongs.length - 1) {
+        playSong(currentAlbumSongs[currentSongIndex + 1], currentSongIndex + 1, currentAlbumSongs);
+      }
+    }
+
+    // Function to play the previous song
+    function playPrevSong() {
+      if (currentSongIndex > 0) {
+        playSong(currentAlbumSongs[currentSongIndex - 1], currentSongIndex - 1, currentAlbumSongs);
+      }
+    }
+
+    // Fetch the JSON file and populate the song list
+    fetch('test.json')
+      .then(response => response.json())
+      .then(data => {
+        const songList = document.getElementById('songList');
+        const groupedData = {};
+
+        // Group songs by artist and then by album
+        data.forEach(song => {
+          if (!groupedData[song.artist]) {
+            groupedData[song.artist] = {};
+          }
+          if (!groupedData[song.artist][song.album]) {
+            groupedData[song.artist][song.album] = [];
+          }
+          groupedData[song.artist][song.album].push(song);
+        });
+
+        // Create the list structure
+        Object.keys(groupedData).forEach(artist => {
+          const artistItem = document.createElement('div');
+          const artistButton = document.createElement('button');
+          artistButton.textContent = artist;
+          artistButton.classList.add('collapsible');
+          artistButton.addEventListener('click', toggleArtist);
+          artistItem.appendChild(artistButton);
+          const artistContent = document.createElement('div');
+          artistContent.classList.add('content');
+
+          Object.keys(groupedData[artist]).forEach(album => {
+            const albumItem = document.createElement('div');
+            const albumButton = document.createElement('button');
+            albumButton.textContent = album;
+            albumButton.classList.add('collapsible');
+            albumButton.addEventListener('click', toggleAlbum);
+            albumItem.appendChild(albumButton);
+
+            const albumContent = document.createElement('div');
+            albumContent.classList.add('content');
+
+            groupedData[artist][album].forEach((song, index) => {
+              const songItem = document.createElement('div');
+              const songButton = document.createElement('button');
+              songButton.textContent = song.title;
+              songButton.addEventListener('click', () => {
+                playSong(song, index, groupedData[artist][album]);
+              });
+
+              songItem.appendChild(songButton);
+              albumContent.appendChild(songItem);
+            });
+
+            albumItem.appendChild(albumContent);
+            artistContent.appendChild(albumItem);
+          });
+
+          artistItem.appendChild(artistContent);
+          songList.appendChild(artistItem);
+        });
+
+        // Event listeners for next and previous buttons
+        document.getElementById('nextButton').addEventListener('click', playNextSong);
+        document.getElementById('prevButton').addEventListener('click', playPrevSong);
+
+        // Event listener to detect when a song ends and play the next song
+        audioPlayer.addEventListener('ended', playNextSong);
+      })
+      .catch(error => console.error('Error loading songs:', error));
+  </script>
+</body>
+</html>
